@@ -1,0 +1,12 @@
+/bootstrap/compiled.php
+/.sass-cache
+/vendor
+/.idea
+/node_modules
+/public/assets
+/public/upload
+/*.log
+/app/config/local
+.env.*
+Thumbs.db
+*.DS_Store

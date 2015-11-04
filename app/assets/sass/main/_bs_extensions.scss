@@ -1,0 +1,124 @@
+// This file is to extend bootstrap styles
+ul {
+    padding: 0;
+}
+
+.label {
+    &.label-custom {
+        background: $sidebar-menu-hover-font-color;
+        color: $sidebar-background-color;
+    }
+}
+
+.badge {
+    &.badge-primary {
+        background: $brand-primary;
+    }
+
+    &.badge-success {
+        background: $brand-success;
+    }
+
+    &.badge-warning {
+        background: $brand-warning;
+    }
+
+    &.badge-info {
+        background: $brand-info;
+    }
+
+    &.badge-danger {
+        background: $brand-danger;
+    }
+
+    &.badge-inverse {
+        background: $brand-inverse;
+    }
+}
+
+.panel {
+    border: 0;
+
+    &.panel-default > .panel-heading {
+        background-color: #ffffff;
+    }
+
+    &.panel-nav {
+        .panel-heading {
+            padding: 0;
+
+            h3 {
+                display: inline-block;
+                padding: 10px 15px;
+            }
+
+            ul {
+                display: inline-block;
+                float: right;
+
+                li {
+                    float: right;
+                    padding: 10px 15px;
+
+                    &.active {
+                        background-color: $light-gray;
+                    }
+
+                    a {
+                        color: inherit;
+                    }
+                }
+            }
+        }
+
+        .nav-content {
+            background-color: $light-gray;
+            padding: 15px;
+            border-bottom: 1px solid #dddddd;
+        }
+    }
+}
+
+.well {
+    border: 0;
+    box-shadow: none;
+
+    &.well-success {
+        color: $state-success-text;
+        background-color: $state-success-bg;
+    }
+
+    &.well-info {
+        color: $state-info-text;
+        background-color: $state-info-bg;
+    }
+
+    &.well-warning {
+        color: $state-warning-text;
+        background-color: $state-warning-bg;
+    }
+
+    &.well-danger {
+        color: $state-danger-text;
+        background-color: $state-danger-bg;
+    }
+
+    &.well-default {
+        color: $state-default-text;
+        background-color: $state-default-bg;
+    }
+}
+
+.input-group.btn-input-group {
+    .btn {
+        border-radius: 0 4px 4px 0;
+    }
+
+    .input-group-addon {
+        background-color: #ffffff;
+
+        input {
+            cursor: pointer;
+        }
+    }
+}

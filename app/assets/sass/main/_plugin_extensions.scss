@@ -1,0 +1,66 @@
+// If you want to extend the styles for a certain plugin (e.g. date/time picker)
+.dropzone {
+    border: 2px dashed #dddddd !important;
+    border-radius: 5px !important;
+    background: white !important;
+    min-height: 80px !important;
+
+    .dz-message {
+        font-weight: 400 !important;
+        margin: 10px 0 !important;
+        color: #aaaaaa !important;
+    }
+
+    .dz-preview {
+        margin: 0 16px !important;
+    }
+
+    .dz-error .dz-image {
+        border: 1px solid $state-danger-text !important;
+    }
+
+    .dz-error-message {
+        display: none !important;
+    }
+}
+
+.bootstrap-tagsinput {
+    width: 100%;
+
+    .tag {
+        font-size: 1em;
+        font-weight: normal;
+        padding: 0.1em 0.5em 0.15em;
+    }
+}
+
+.twitter-typeahead {
+    .tt-hint {
+        border-radius: 8px;
+        color: #999;
+    }
+
+    .tt-menu {
+        width: auto;
+        margin-top: 5px;
+        margin-left: -6px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+
+        .tt-suggestion {
+            min-width: 200px;
+            padding: 3px 10px;
+            border-bottom: 1px solid #ddd;
+
+            &:last-child {
+                border: 0;
+            }
+
+            &.tt-cursor {
+                color: #fff;
+                background-color: #3366FF;
+            }
+        }
+    }
+}
